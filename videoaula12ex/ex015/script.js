@@ -2,8 +2,8 @@
         var data = new Date()
         var ano = data.getFullYear()
         var fano = window.document.getElementById("txtano")
-        var res = window.document.getElementById("res")
-        if(fano.value.length == 0 || fano.value > ano) {
+        var res = window.document.querySelector("div#res")
+        if (fano.value.length == 0 || Number(fano.value) > ano) {
             window.alert("[ERRO] Verfique os dados e tente novamente!")
         } else {
             var fsex = document.getElementsByName('radsex')
@@ -15,7 +15,7 @@
                 gênero = 'Homem'
                 if(idade >= 0 && idade < 10) {
                     //criança
-                    img.setAttribute('src', 'foto-jovem-m.png.')
+                    img.setAttribute('src', 'foto-bebe-m.png.')
                 } else if(idade <= 21) {
                     //jovem
                     img.setAttribute('src', 'foto-jovem-m.png')
@@ -44,6 +44,6 @@
             }
             res.style.textAlign = 'center'
             res.innerHTML = `Detectamos ${gênero} com ${idade} anos`
-            res.appendChild(img)
+            res.appendChild(img);
         }
     }
