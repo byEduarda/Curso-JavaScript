@@ -43,7 +43,7 @@
                 }     
             }
             res.style.textAlign = 'center'
-            res.innerHTML = `Os dados pertencem a uma ${gênero} com ${idade} anos`
+            res.innerHTML = `Detectamos ${gênero} com ${idade} anos`
             res.appendChild(img)
         }
     }
