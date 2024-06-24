@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de verificação de nacionalidade</title>
+    <style>
+        body {
+            background: greenyellow;
+            text-align: center;
+            font: 20pt normal Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificação de nacionalidade</h1>
+    <p>Onde você nasceu? :
+    <input type="text" name="origem" id="origem">
+    <input type="button" value="Enviar" onclick="saudar()">
+    </p>
+    <div id="res">
+    </div>
+
+    <script>
+        function saudar() {
+            var pais = window.document.querySelector('input#origem')
+            var pais_string = pais.value
+            var resposta = window.document.querySelector('div#res')
+
+            if (pais_string != 'Brasil') {
+                res.innerHTML = 'Você é estrageiro'
+            } else {
+                res.innerHTML = 'Você é brasileiro'
+            }
+        }
+    </script>
+</body>
+</html>
