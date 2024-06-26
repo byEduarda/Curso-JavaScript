@@ -15,7 +15,7 @@
                 gênero = 'Homem'
                 if(idade >= 0 && idade < 10) {
                     //criança
-                    img.setAttribute('src', 'foto-bebe-m.png.png')
+                    img.setAttribute('src', 'foto-bebe-m.png.')
                 } else if(idade <= 21) {
                     //jovem
                     img.setAttribute('src', 'foto-jovem-m.png')
