@@ -1,5 +1,5 @@
 let valores = [2,4,6,9,1,3]
-
+valores.sort()
 //console.log(valores)
 
 /*console.log(valores[0])
