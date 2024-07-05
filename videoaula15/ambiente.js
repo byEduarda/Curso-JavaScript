@@ -6,11 +6,12 @@ console.log(num)
 console.log(`O vetor tem ${num.length} elementos`)
 console.log(`O primeiro valor do vetor é o número ${num[0]}`)
 
-console.log(num[0])
-console.log(num[1])
-console.log(num[2])
-console.log(num[3])
-console.log(num[4]) 
+let pos = num.indexOf(8)
 
+if(pos == -1) {
+    console.log('O valor não foi encontrado')
+} else{
+    console.log(`O valor 8 está na posição ${pos}`)
+}
 
 
