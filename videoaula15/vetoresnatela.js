@@ -15,5 +15,6 @@ console.log(valores[5])*/
 
 for(let pos in valores) {
     console.log(`a posição ${pos} tem o valor ${valores[pos]}`)
+    
 }
-
+console.log(valores[0])
