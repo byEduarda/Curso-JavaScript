@@ -1,7 +1,6 @@
 body {
     background: blue;
-    font: normal 11pt Arial;
-    
+    font: normal 10pt Arial;
     
     
 }
@@ -10,15 +9,18 @@ header {
     text-align: center;
     color: white;
 }
+#flist{
+    width: 100px;
+}
 
 section {
     background: white;
-    padding: 15px;
     border-radius: 10px;
-    width: 430px;
+    padding: 15px;
+    width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
-    text-align: center;
+    
     
 
 }
