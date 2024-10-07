@@ -28,7 +28,7 @@ function adicionar() {
         res.innerHTML = ''
 
     } else {
-        window.alert("Valor inválido ou já adicionado na lista")
+        window.alert("Valor inválido ou já adicionado na lista") 
     }
     num.value = ""
     num.focus()
