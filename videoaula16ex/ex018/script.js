@@ -30,7 +30,7 @@ function adicionar() {
     } else {
         window.alert("Valor inválido ou já adicionado na lista") 
     } 
-    num.value = ""
+    num.value = "" 
     num.focus()
 }
 
